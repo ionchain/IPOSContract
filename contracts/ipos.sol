@@ -5,7 +5,7 @@ import "./SafeMath.sol";
 contract IPOS {
     using SafeMath for uint256;
 
-    uint public stakeMinAge = 10; // minimum age for coin age: 1D
+    uint public stakeMinAge = 8640; // minimum age for coin age: 1D
 
     struct transferInStruct {
         uint256 amount;

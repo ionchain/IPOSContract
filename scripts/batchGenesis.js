@@ -76,7 +76,7 @@ function increaseHexByX(hex, n) {
 
 // main
 let storage = {};
-storage["0x0000000000000000000000000000000000000000000000000000000000000000"]="0x0a"; //初始化stakeMinAge
+storage["0x0000000000000000000000000000000000000000000000000000000000000000"]="0x21c0"; //初始化stakeMinAge
 
 function batch(senderAddress, _amount) {
     // console.info("address: " + senderAddress);
