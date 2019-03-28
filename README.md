@@ -1,10 +1,10 @@
 ## IPOSContract
 
-本项目是ionchain-core中保证金合约，在保证金合约中存储POS矿工的算力
+本项目是`ionchain-core`中保证金合约，在保证金合约中存储`POS`矿工的算力
 
 ## 编译合约
 
-使用`solc`编译`ipos.sol`合约，将编译后的代码拷贝到`genesis.json`中的code变量中
+使用`solc`编译`ipos.sol`合约，将编译后的代码拷贝到`genesis.json`中的`code`变量中
 
 ```angular2html
 solc --optimize --bin-runtime ./contracts/ipos.sol
@@ -12,7 +12,7 @@ solc --optimize --bin-runtime ./contracts/ipos.sol
 
 ## 生成创世矿工的算力
 
-ionchain-core是使用POS共识算法，所以需要在创世区块中生成一批创世矿工及矿工所拥有的算力
+`ionchain-core`是使用`POS`共识算法，所以需要在创世区块中生成一批创世矿工及矿工所拥有的算力
 
 ```angular2html
 node ./scripts/batchGenesis.js
