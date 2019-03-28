@@ -1,0 +1,23 @@
+{
+  "name": "IPOSContract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^0.20.0",
+    "underscore": "^1.9.0",
+    "underscore.string": "^3.3.4",
+    "truffle-contract": "^3.0.6",
+    "tokenAndCoin": "file:/Users/shouhewu/devWorkspace/token/TokenAndCoinTransfer",
+    "truffle-wallet-provider": "git+https://github.com/blockchain-technical-practice/truffle-wallet-provider.git"
+  }
+}
