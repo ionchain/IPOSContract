@@ -2,8 +2,6 @@
 const IPOS = artifacts.require("IPOS");
 const BlockMiner = artifacts.require("BlockMiner.sol");
 
-var calcG = require('../scripts/calculateGenesis');
-
 contract("IPOS", function (accounts) {
 
     let ipos;
